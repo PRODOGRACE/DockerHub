@@ -8,7 +8,7 @@ pipeline {
            }
 
   tools {
-    maven 'maven' 
+    stage('Build with maven') 
        }
 
   stages {
