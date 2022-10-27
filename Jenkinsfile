@@ -59,12 +59,7 @@ pipeline {
            }
        }
    }
-   
-    stage('Deploy to QA') {
-            steps {
-                echo 'Deploy to Tomcat'
-            }
-        }        
+      
    }
 }
 
